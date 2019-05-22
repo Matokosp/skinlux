@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) and (orientation: portrait) {
+
+  .content_title {
+    font-size: 2.8rem;
+  }
+
+  .content_subtitle {
+    font-size: 1.5rem;
+  }
+
+  .quote_text {
+    font-size: 3.5rem;
+  }
+
+}
+
+@media (min-width: 992px) and (orientation: portrait) {
+
+
+
+}
+
+@media (min-width: 1000px) and (orientation: landscape) {
+
+  .content {
+    padding: 0 35vw;
+  }
+
+  .content_title {
+    font-size: 3rem;
+  }
+
+  .content_subtitle {
+    font-size: 1.5rem;
+  }
+
+  .comprometidos_section {
+    background-image: url('../images/bkg1-web.jpg');
+  }
+
+  .quote {
+    padding: 0 30vw;
+  }
+
+  .quote_text {
+    font-size: 4rem;
+  }
+
+  .iluminas_section {
+    background-image: url('../images/bkg2-web.jpg');
+  }
+
+  .poder_section {
+    background-image: url('../images/bkg3-web.jpg');
+  }
+
+  .espectro {
+    text-align: center;
+    padding: 5vw;
+  }
+
+  .espectro_item {
+    padding: 0;
+    margin: 0px;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+  }
+
+  .espectro_item_thumbnail {
+    width: 85%;
+  }
+
+  .espectro_item_colores {
+    display: inline-block;
+    width: 102%;
+    margin-top: 30px;
+  }
+
+  .espectro_item_title {
+    padding: 0 10%;
+  }
+
+  .espectro_item_paragraph {
+    padding: 0 10%;
+  }
+
+}

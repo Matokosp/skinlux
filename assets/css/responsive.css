@@ -14,15 +14,69 @@
     font-size: 3.5rem;
   }
 
+  /* TECNOLOGY PAGE */
+
+  .caracteristicas_item {
+    display: inline-block;
+    width: 32%;
+    height: 300px;
+    vertical-align: top;
+  }
+
+  .fact_cientifico {
+    border: solid 2px #F3AE30;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+  }
+
+  .resultados_item {
+    width: 19vw;
+    height: 19vw;
+  }
+
+
 }
 
 @media (min-width: 992px) and (orientation: portrait) {
 
+  .resultados_section {
+    padding: 20px 10%;
+    text-align: center;
+  }
+
+  .resultados_item {
+    display: inline-block;
+    background-color: #F1F0EF;
+    padding: 15px;
+    width: 19vw;
+    height: 19vw;
+    margin-bottom: 5px;
+    vertical-align: top;
+    cursor: pointer;
+  }
 
 
 }
 
 @media (min-width: 1000px) and (orientation: landscape) {
+
+  /* HOME PAGE */
+
+  .front_hero {
+    background: transparent;
+  }
+
+  #myVideo{
+    display: block;
+    min-height: 100%;
+    min-width: 100vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+  	z-index: -5;
+  }
 
   .content {
     padding: 0 35vw;
@@ -86,5 +140,110 @@
   .espectro_item_paragraph {
     padding: 0 10%;
   }
+
+  .footer {
+    padding: 20px 5vw;
+    text-align: center;
+  }
+
+  .footer_logo {
+    display: inline-block;
+    margin: 0 auto;
+    width: 200px;
+    vertical-align: middle;
+  }
+
+  .footer_list {
+    display: inline-block;
+    margin: 0px;
+    vertical-align: middle;
+  }
+
+  .footer_list_item {
+    display: inline-block;
+    margin: 0px 15px;
+  }
+
+  .footer_list_item img {
+    width: 25px;
+  }
+
+  /* TECNOLOGIA PAGE */
+
+  .infraroja_section {
+    background-image: url('../images/bkg4-web.jpg');
+  }
+
+  .fototerapia_section {
+    background-image: url('../images/bkg5-web.jpg');
+    height: 80vh;
+  }
+
+  .tripleonda_section {
+    background-image: url('../images/bkg6-web.jpg');
+    height: 80vh;
+  }
+
+  .caracteristicas_section {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .caracteristicas_item {
+    display: inline-block;
+    width: 33%;
+    height: 280px;
+    vertical-align: top;
+  }
+
+  .cientifico_section {
+    background-image: url('../images/bkg7-web.jpg');
+    padding: 10vh 10%;
+  }
+
+  .fact_cientifico {
+    width: 100%;
+  }
+
+  .resultados_section {
+    display: flex;
+    flex-direction: row;
+    padding: 10vh 5vw;
+  }
+
+  .resultados_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 22vw;
+    height: 22vw;
+    margin: 5px;
+  }
+
+  .resultados_item_text {
+    font-size: 1rem;
+  }
+
+}
+
+@media (min-width: 1440px) and (min-aspect-ratio: 16/9) {
+
+  .fototerapia_section {
+    height: 90vh;
+  }
+
+  .tripleonda_section {
+    height: 90vh;
+  }
+
+  .caracteristicas_section {
+    padding: 10vh 0;
+  }
+
+  .cientifico_section {
+    padding: 20vh 10%;
+  }
+
 
 }

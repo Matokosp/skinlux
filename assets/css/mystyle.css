@@ -9,6 +9,7 @@ body {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  font-size: 0.9rem;
 }
 
 a {
@@ -38,6 +39,22 @@ h4 {
   background-position: center center;
 }
 
+#myVideo {
+  display: none;
+}
+
+.next_section {
+  position: absolute;
+  width: 20%;
+  bottom: 10px;
+  left: 40%;
+  text-align: center;
+}
+
+.next_section img {
+  width: 20px;
+}
+
 .front_hero h1 {
   margin: 0;
   opacity: 0;
@@ -50,7 +67,7 @@ h4 {
   background-size: cover;
   background-position: center center;
   text-align: center;
-  padding: 0 15vw;
+  padding: 0 10vw;
 }
 
 .content_text {
@@ -76,6 +93,7 @@ h4 {
 
 .quote {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -85,10 +103,18 @@ h4 {
 }
 
 .quote_text {
+  display: block;
   color: #fff;
   font-size: 2.4rem;
   font-weight: 500;
   margin: 0;
+}
+
+.quote_subtext {
+  color: #fff;
+  font-family: 'Montserrat'. sans-serif;
+  font-style: italic;
+  font-size: 1rem;
 }
 
 .iluminas_section {
@@ -166,4 +192,116 @@ h4 {
   font-size: 0.8rem;
   color: #fff;
   vertical-align: middle;
+}
+
+/* TECNOLOGIA PAGE */
+
+.infraroja_section {
+  background-image: url('../images/bkg4-mobile.jpg');
+}
+
+.fototerapia_section {
+  background-image: url('../images/bkg5-mobile.jpg');
+}
+
+.tripleonda_section {
+  background-image: url('../images/bkg6-mobile.jpg');
+}
+
+.caracteristicas_section {
+  text-align: center;
+}
+
+.caracteristicas_item {
+  margin-bottom: 20px;
+  background-color: #F1F0EF;
+  padding-bottom: 25px;
+}
+
+.caracteristicas_item-title {
+  color: #fff;
+}
+
+.caracteristicas_item-title h3 {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.caracteristicas_item-text {
+  padding: 0 5vw;
+}
+
+.caracteristicas_item-text h4 {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #58595B;
+}
+
+.caracteristicas_item-text p {
+  color: #58595B;
+}
+
+.title_blue {
+   background-image: linear-gradient(to right, #00B4E4 , #4D3D96);
+}
+
+.title_yellow {
+   background-image: linear-gradient(to right, #ED9321 , #FBEE35);
+}
+
+.title_red {
+   background-image: linear-gradient(to right, #EC802A , #C23126);
+}
+
+.cientifico_section {
+  background-image: url('../images/bkg7-mobile.jpg');
+  padding: 20px 10vw;
+  flex-direction: column;
+}
+
+.fact_cientifico {
+  border: solid 2px #F3AE30;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.fact_cientifico-quote {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.fact_cientifico-cite {
+  display: block;
+  font-style: normal;
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+.resultados_section {
+  padding: 20px 10vw;
+  text-align: center;
+}
+
+.resultados_item {
+  display: inline-block;
+  background-color: #F1F0EF;
+  padding: 15px;
+  width: 38vw;
+  height: 38vw;
+  margin-bottom: 5px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.resultados_item_img {
+  width: 50%;
+}
+
+.resultados_item_text {
+  font-size: 0.6rem;
 }

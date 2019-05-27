@@ -32,14 +32,13 @@
   }
 
   .resultados_item {
-    width: 19vw;
-    height: 19vw;
+    width: 32.5%;
+    height: 250px;
   }
 
   /* TRATAMIEENTO PAGE */
 
   .step_item {
-    padding-top: 45vh;
     width: 25%;
   }
 
@@ -64,8 +63,8 @@
     display: inline-block;
     background-color: #F1F0EF;
     padding: 15px;
-    width: 19vw;
-    height: 19vw;
+    width: 32.5%;
+    height: 280px;
     margin-bottom: 5px;
     vertical-align: top;
     cursor: pointer;
@@ -212,7 +211,7 @@
 
   .cientifico_section {
     background-image: url('../images/bkg7-web.jpg');
-    padding: 10vh 10%;
+    padding: 10vh 30vw;
   }
 
   .fact_cientifico {
@@ -223,6 +222,7 @@
     display: flex;
     flex-direction: row;
     padding: 10vh 5vw;
+    justify-content: center;
   }
 
   .resultados_item {
@@ -230,13 +230,24 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 22vw;
-    height: 22vw;
+    width: 33vw;
+    height: 30vw;
     margin: 5px;
+    padding: 35px;
+  }
+
+  .resultados_item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
   }
 
   .resultados_item_text {
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .info_section {
+    text-align: center;
+    padding: 0 20vw 5vh 20vw;
   }
 
   /* TRATAMIENTO PAGE */
@@ -254,8 +265,11 @@
     padding: 0 15vw;
   }
 
+  .step_section .content_text {
+    padding: 0 10vw;
+  }
+
   .step_item {
-    padding-top: 45vh;
     width: 25%;
   }
 
@@ -290,10 +304,6 @@
 
   .caracteristicas_section {
     padding: 10vh 0;
-  }
-
-  .cientifico_section {
-    padding: 20vh 10%;
   }
 
 

@@ -36,6 +36,20 @@
     height: 19vw;
   }
 
+  /* TRATAMIEENTO PAGE */
+
+  .step_item {
+    padding-top: 45vh;
+    width: 25%;
+  }
+
+  .servicios_item {
+    background-color: #F1F0EF;
+    width: 21vw;
+    height: 21vw;
+    margin: 3px;
+    padding: 0 1%;
+  }
 
 }
 
@@ -79,7 +93,7 @@
   }
 
   .content {
-    padding: 0 35vw;
+    padding: 0 30vw;
   }
 
   .content_title {
@@ -222,6 +236,43 @@
   }
 
   .resultados_item_text {
+    font-size: 1rem;
+  }
+
+  /* TRATAMIENTO PAGE */
+
+  .transforma_section {
+    background-image: url('../images/bkg8-web.jpg');
+  }
+
+  .esencial_section {
+    background-image: url('../images/bkg9-web.jpg');
+  }
+
+  .step_section {
+    background-image: url('../images/bkg10-web.jpg');
+    padding: 0 15vw;
+  }
+
+  .step_item {
+    padding-top: 45vh;
+    width: 25%;
+  }
+
+  .superior_section {
+    display: block;
+    padding: 10vh 10vw;
+  }
+
+  .servicios_item {
+    background-color: #F1F0EF;
+    width: 19vw;
+    height: 19vw;
+    margin: 3px;
+    padding: 2%;
+  }
+
+  .servicios_item p {
     font-size: 1rem;
   }
 

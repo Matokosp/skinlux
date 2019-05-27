@@ -305,3 +305,63 @@ h4 {
 .resultados_item_text {
   font-size: 0.6rem;
 }
+
+/* TRATAMIENTO PAGE */
+
+.transforma_section {
+  background-image: url('../images/bkg8-mobile.jpg');
+}
+
+.esencial_section {
+  background-image: url('../images/bkg9-mobile.jpg');
+}
+
+.step_section {
+  background-image: url('../images/bkg10-mobile.jpg');
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.step_item {
+  padding-top: 25%;
+  width: 50%;
+}
+
+.step_item_img {
+  width: 100%;
+}
+
+.superior_section {
+  display: block;
+  padding: 10vh 5vw;
+}
+
+.servicios_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.servicios_item {
+  background-color: #F1F0EF;
+  width: 43vw;
+  height: 43vw;
+  margin: 3px;
+  padding: 0 2%;
+}
+
+.servicios_item img {
+  width: 65%;
+}
+
+.servicios_item p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+/* TESTIMONIO PAGE */
+
+.energia_section {
+  background-image: url('../images/bkg11-mobile.jpg');
+}

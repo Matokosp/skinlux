@@ -75,6 +75,40 @@
 
 @media (min-width: 1000px) and (orientation: landscape) {
 
+  .contact {
+    display: block;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+  }
+
+  .contact_link {
+    display: inline-block;
+    margin: 0;
+    border: solid 2px white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 0.8rem;
+    transition: 0.5s;
+  }
+
+  .contact_link_black {
+    border: solid 2px black;
+    color: #000;
+  }
+
+  .contact_ig_link {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+
+  .contact_ig_logo {
+    width: 40px;
+  }
+
   /* HOME PAGE */
 
   .front_hero {
@@ -289,6 +323,25 @@
   .servicios_item p {
     font-size: 1rem;
   }
+
+  /* TESTIOMONIO PAGE */
+
+  .energia_section {
+    background-image: url('../images/bkg11-web.jpg');
+  }
+
+  .testimonio_img_section {
+    padding: 10vh 15vw;
+  }
+
+  .regeneracion_section {
+    background-image: url('../images/bkg12-web.jpg');
+  }
+
+  .testimonio_background_img_section {
+    background-image: url('../images/bkg13-web.jpg');
+  }
+
 
 }
 

@@ -91,12 +91,18 @@
     color: #fff;
     vertical-align: middle;
     font-size: 0.8rem;
-    transition: 0.5s;
+    transition: 0.2s;
   }
 
   .contact_link_black {
+    display: inline-block;
+    margin: 0;
     border: solid 2px black;
+    border-radius: 50px;
+    padding: 10px 20px;
     color: #000;
+    vertical-align: middle;
+    font-size: 0.8rem;
   }
 
   .contact_ig_link {
@@ -107,6 +113,15 @@
 
   .contact_ig_logo {
     width: 40px;
+  }
+
+  .footer_noticias {
+    padding: 20px 5vw;
+    text-align: center;
+    background-color: #4D4D4F;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
   }
 
   /* HOME PAGE */
@@ -340,6 +355,47 @@
 
   .testimonio_background_img_section {
     background-image: url('../images/bkg13-web.jpg');
+  }
+
+  /* PAGINA NOTICIAS */
+
+  .noticias_header {
+    visibility: hidden;
+  }
+
+  .noticia_item {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .noticia_item_header {
+    padding: 0px 0px 30px 30px;
+    width: 50%;
+  }
+
+  .noticia_title {
+    font-size: 2.4rem;
+    margin: 0 auto 20px auto;
+  }
+/*
+  .noticia_date {
+    color: #58595B;
+    font-style: italic;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .noticia_content {
+    color: #555859;
+  } */
+
+  .noticia_item .flexslider {
+    width: 50%;
   }
 
 

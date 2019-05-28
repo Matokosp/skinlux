@@ -395,3 +395,33 @@ h4 {
 .testimonio_background_img_section {
   background-image: url('../images/bkg13-mobile.jpg');
 }
+
+/* PAGINA NOTICIAS */
+
+.noticias_header {
+  visibility: hidden;
+}
+
+.noticia_item_header {
+  padding: 20px;
+}
+
+.noticia_title {
+  font-size: 2.8rem;
+  margin-bottom: 10 px;
+}
+
+.noticia_date {
+  color: #58595B;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.noticia_content {
+  color: #555859;
+}
+
+.noticia_item .flexslider .flex-control-nav {
+  display: none;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0">
+    <title>Skinlux</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500|Montserrat:500,500i,600&display=swap" rel="stylesheet">
+    <!-- MY STYLE -->
+    <link rel="stylesheet" href="assets/css/mystyle.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- FLEXSLIDER STYLE -->
+    <link rel="stylesheet" href="assets/css/flexslider.css">
+  </head>
+  <body>
+    <nav class="menu" id="white-menu">
+      <div class="menu__responsive">
+        <img class="menu__responsive-corner_logo" src="assets/images/skinlux-logo-grey.png" alt="">
+        <div class="menu__responsive--hidden" id="menu-hide">
+              <a href="index.html">
+                <img class="menu__responsive-logo" src="assets/images/skinlux-logo.png">
+              </a>
+              <ul class="menures">
+                  <li><a href="index.html">El poder de la luz</a></li>
+                  <li><a href="tecnologia.html">Tecnología</a></li>
+                  <li><a href="tratamiento.html">Tratamiento</a></li>
+                  <li><a href="testimonio.html">Testimonios</a></li>
+                  <li><a href="noticias.html">Noticias</a></li>
+                  <li><a href="https://www.instagram.com/zooma.design/" target="_blank"> <i class="fab fa-instagram"></i> </a></li>
+              </ul>
+            </div>
+          <div class="hamburger__section" id="hamburger">
+		       		<div class="hamburger__section-icon"></div>
+		       		<div class="hamburger__section-icon" id="menuicon-middle"></div>
+		       		<div class="hamburger__section-icon"></div>
+		    	</div>
+      </div>
+      <section class="main_menu">
+				<ul class="main_menu_ul">
+          <li><a href="index.html"><img class="corner_logo" src="assets/images/skinlux-logo-grey.png"></a></li>
+					<li><a class="main_menu-link" href="index.html">El poder de la luz</a></li>
+					<li><a class="main_menu-link" href="tecnologia.html">Tecnología</a></li>
+					<li><a class="main_menu-link" href="tratamiento.html">Tratamiento</a></li>
+					<li><a class="main_menu-link" href="testimonio.html">Testimonios</a></li>
+          <li><a class="main_menu-link" href="noticias.html">Noticias</a></li>
+				</ul>
+			</section>
+    </nav>
+    <div class="contact_fullpage">
+      <header class="contact_header">
+        <h2 class="contact_header_title">Ofrece la mejor experiencia de fototerapia LED a tus clientes</h2>
+        <p>/Contáctate con nosotros para capacitarte de los mejores implementos en tratamientos de luz LED.</p>
+      </header>
+      <div class="contact_container">
+        <form class="contact_form">
+          <input type="text" name="firstname" placeholder="Nombre">
+          <input type="text" name="lastname" placeholder="Asunto">
+          <input type="text" name="email" placeholder="E-mail">
+          <textarea id="subject" name="subject" placeholder="Asunto" style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <footer class="footer contact_footer">
+        <img class="footer_logo" src="assets/images/skinlux-logo-white.png" alt="">
+        <ul class="footer_list">
+          <li class="footer_list_item">
+            <img src="assets/images/envelope-icon.png" alt="">
+            <span>contacto@skinlux.cl</span>
+          </li>
+          <li class="footer_list_item">
+            <img src="assets/images/location-icon.png" alt="">
+            <span>santiago</span>
+          </li>
+          <li class="footer_list_item">
+            <img src="assets/images/ig-icon.png" alt="">
+            <span>skinlux.chile</span>
+          </li>
+          <li class="footer_list_item">
+            <img src="assets/images/phone-icon.png" alt="">
+            <span>+569 99885294 / +56984487688</span>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+    <!-- FlexSlider -->
+    <script defer src="assets/js/jquery.flexslider.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        SyntaxHighlighter.all();
+      });
+      $(window).load(function(){
+        $('.flexslider').flexslider({
+          animation: "slide",
+          start: function(slider){
+            $('body').removeClass('loading');
+          }
+        });
+      });
+    </script>
+    <!-- MY SCRIPT -->
+    <script type="text/javascript" src="assets/js/myscript.js"></script>
+  </body>
+</html>

@@ -50,6 +50,16 @@
     padding: 0 1%;
   }
 
+  .contact_header {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .contact_container {
+      max-width: 700px;
+      margin: 0 auto 10vh auto;
+    }
+
 }
 
 @media (min-width: 992px) and (orientation: portrait) {
@@ -68,6 +78,10 @@
     margin-bottom: 5px;
     vertical-align: top;
     cursor: pointer;
+  }
+
+  .contact_header_title {
+    font-size: 2.9rem;
   }
 
 
@@ -398,6 +412,42 @@
     width: 50%;
   }
 
+  /* CONTACT PAGE */
+
+  .contact_fullpage {
+    max-width: 1920px;
+    height: 100vh;
+    padding-top: 20vh;
+    text-align: center;
+  }
+
+  .contact_header {
+    padding: 0 5vw;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .contact_header_title {
+    font-size: 2.8rem;
+  }
+
+  .contact_container {
+    display: inline-block;
+    width: 45%;
+    border-radius: 5px;
+    padding: 20px;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .contact_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
 
 }
 
@@ -413,6 +463,10 @@
 
   .caracteristicas_section {
     padding: 10vh 0;
+  }
+
+  .contact_fullpage {
+    padding-top: 25vh;
   }
 
 

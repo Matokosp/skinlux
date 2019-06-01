@@ -29,11 +29,31 @@
     })
 
 
+    // MENU COLOR CHANGE
+
+    mainMenuWhite = $('.main_menu-white');
+    mainMenuLinkWhite = $('.main_menu-link-white');
+    mainMenuLogo = $('#corner_logo-white');
+    secondSection = $('#contentDos').offset();
+    const $window = $(window);
+    var windowHeight = $( window ).height();
+
+    $window.scroll(function () {
+      if ($window.scrollTop() >= secondSection.top ) {
+        mainMenuWhite.css('background-color' , 'rgba(255,255,255,0.9)');
+        mainMenuLinkWhite.css('color' , '#6D6E71');
+        mainMenuLogo.attr('src', 'assets/images/skinlux-logo-grey.png')
+      } else {
+        mainMenuWhite.css('background-color' , 'transparent');
+        mainMenuLinkWhite.css('color' , '#fff');
+        mainMenuLogo.attr('src', 'assets/images/skinlux-logo-white.png')
+      }
+    })
+
+
 // CONTACTO
-  const $window = $(window);
+
   var contact = $('#contactSection');
-  var secondSection = $('#contentDos').offset();
-  var windowHeight = $( window ).height();
   var contactLink = $('.contact_link');
   var contactIg = $('.contact_ig_logo');
 

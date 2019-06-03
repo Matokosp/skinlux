@@ -375,6 +375,7 @@
 
   .noticias_header {
     visibility: hidden;
+    padding-top: 10vh;
   }
 
   .noticia_item {

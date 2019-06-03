@@ -4,6 +4,10 @@
   display: none;
 }
 
+.main_menu-white {
+  display: none;
+}
+
 .menu {
     width: 100%;
     margin: 0;

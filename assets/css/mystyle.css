@@ -397,8 +397,28 @@ h4 {
   background-image: url('../images/bkg12-mobile.jpg');
 }
 
-.testimonio_background_img_section {
-  background-image: url('../images/bkg13-mobile.jpg');
+.testimonio_bottom .flexslider {
+  margin: 0;
+}
+
+.testimonio_bottom .flexslider .flex-direction-nav .flex-next {
+  right: 0;
+}
+
+.testimonio_bottom .flexslider .flex-direction-nav .flex-prev {
+  left: 0;
+}
+
+.testimonio_bottom .flexslider .flex-control-nav {
+  bottom: 30px;
+}
+
+.testimonio_bottom .flexslider .flex-control-paging li a {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.testimonio_bottom .flexslider .flex-control-paging li a.flex-active {
+  background: rgba(255, 255, 255, 1);
 }
 
 /* PAGINA NOTICIAS */

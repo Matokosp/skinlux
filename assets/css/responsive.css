@@ -36,7 +36,7 @@
     height: 250px;
   }
 
-  /* TRATAMIEENTO PAGE */
+  /* TRATAMIENTO PAGE */
 
   .step_item {
     width: 25%;
@@ -93,40 +93,29 @@
     display: block;
     position: fixed;
     right: 30px;
-    bottom: 20px;
+    bottom: 80px;
   }
 
-  .contact_link {
-    display: inline-block;
-    margin: 0;
-    border: solid 2px white;
-    border-radius: 50px;
-    padding: 10px 20px;
-    color: #fff;
-    vertical-align: middle;
-    font-size: 0.8rem;
-    transition: 0.2s;
+  .contact_brochure_link {
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 
-  .contact_link_black {
-    display: inline-block;
-    margin: 0;
-    border: solid 2px black;
-    border-radius: 50px;
-    padding: 10px 20px;
-    color: #000;
-    vertical-align: middle;
-    font-size: 0.8rem;
+  .contact_brochure_logo {
+    width: 100%;
   }
 
   .contact_ig_link {
-    display: inline-block;
+    display: block;
     vertical-align: middle;
-    margin-left: 20px;
+    width: 42px;
+    margin: 0 auto;
   }
 
   .contact_ig_logo {
-    width: 40px;
+    width: 100%;
   }
 
   .footer_noticias {

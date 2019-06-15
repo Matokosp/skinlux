@@ -54,16 +54,16 @@
 // CONTACTO
 
   var contact = $('#contactSection');
-  var contactLink = $('.contact_link');
+  var contactBrochure = $('.contact_brochure_logo');
   var contactIg = $('.contact_ig_logo');
 
   $window.scroll(function() {
     if ($window.scrollTop() >= secondSection.top - ( windowHeight * 9 / 10 ) ) {
-      contactLink.addClass('contact_link_black');
+      contactBrochure.attr('src', 'assets/images/brochure-icon-black.png');
       contactIg.attr('src', 'assets/images/ig-icon-black.png');
       console.log('hola');
     } else {
-      contactLink.removeClass('contact_link_black');
-      contactIg.attr('src', 'assets/images/ig-icon.png');
+      contactBrochure.attr('src', 'assets/images/brochure-icon.png');
+      contactIg.attr('src', 'assets/images/ig-icon-white.png');
     }
   })

@@ -89,6 +89,10 @@
 
 @media (min-width: 1000px) and (orientation: landscape) {
 
+  .section_height {
+    height: 700px;
+  }
+
   .contact {
     display: block;
     position: fixed;
@@ -241,7 +245,6 @@
 
   .fototerapia_section {
     background-image: url('../images/bkg5-web.jpg');
-    height: 80vh;
   }
 
   .tripleonda_section {
@@ -443,13 +446,7 @@
 
 @media (min-width: 1440px) and (min-aspect-ratio: 16/9) {
 
-  .fototerapia_section {
-    height: 90vh;
-  }
 
-  .tripleonda_section {
-    height: 90vh;
-  }
 
   .caracteristicas_section {
     padding: 10vh 0;

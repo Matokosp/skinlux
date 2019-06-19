@@ -29,7 +29,15 @@ h4 {
   font-weight: 400;
 }
 
+.header_front {
+  height: 100vh;
+}
+
 .fullpage {
+  height: 100vh;
+}
+
+.section_height {
   height: 100vh;
 }
 
@@ -352,6 +360,10 @@ h4 {
 
 .step_item_img {
   width: 100%;
+}
+
+.step_item_text {
+  padding: 0 10px;
 }
 
 .superior_section {

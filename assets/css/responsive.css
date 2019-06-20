@@ -93,11 +93,26 @@
     height: 700px;
   }
 
+  /* HEADER PARALLAX */
+
+  .front_hero-section-img {
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    top: 30vh;
+  }
+
+  .bg1::after {
+    background-image: url('../images/bkg-front.jpg');
+  }
+
   .contact {
     display: block;
     position: fixed;
     right: 30px;
     bottom: 80px;
+    z-index: 30;
   }
 
   .contact_brochure_link {

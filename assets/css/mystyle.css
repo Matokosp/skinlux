@@ -44,23 +44,67 @@ h4 {
 
 /* HEADER INDEX PARALLAX */
 
-.wrapper {
-  /* The height needs to be set to a fixed value for the effect to work.
-   * 100vh is the full height of the viewport. */
+.front_hero {
   height: 100vh;
-  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
-  overflow-x: hidden;
-  /* Enable scrolling on the page. */
-  overflow-y: auto;
-  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-  perspective: 2px;
 }
 
-.front_hero-section {
-  /* Needed for children to be absolutely positioned relative to the parent. */
-  position: relative;
-  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+.front_hero-img {
+  background-image: url('../images/bkg-front-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
   height: 100vh;
+  position: fixed;
+  z-index: -5;
+}
+
+.front_hero-foreground {
+  position: absolute;
+  z-index: 1;
+  width: 250px;
+  left: 50%;
+  margin-left: -125px;
+  top: 40vh;
+}
+
+.front_hero-section-img {
+  width: 100%;
+}
+
+.navigation_div {
+  height:auto;
+  z-index: 10;
+  position: relative;
+}
+
+.navigation_div > #navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.index_main {
+
+}
+
+/* .wrapper { */
+  /* The height needs to be set to a fixed value for the effect to work.
+   * 100vh is the full height of the viewport. */
+  /* height: 100vh; */
+  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+  /* overflow-x: hidden; */
+  /* Enable scrolling on the page. */
+  /* overflow-y: auto; */
+  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+  /* perspective: 2px;
+} */
+
+/* .front_hero-section { */
+  /* Needed for children to be absolutely positioned relative to the parent. */
+  /* position: relative; */
+  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+  /* height: 100vh;
 }
 
 .front_hero-section-img {
@@ -69,33 +113,33 @@ h4 {
   left: 50%;
   margin-left: -125px;
   top: 40vh;
-}
+} */
 
-.parallax::after {
+/* .parallax::after { */
   /* Display and position the pseudo-element */
-  content: " ";
+  /* content: " ";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 0; */
 
   /* Move the pseudo-element back away from the camera,
    * then scale it back up to fill the viewport.
    * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(1.5);
+  /* transform: translateZ(-1px) scale(1.5); */
   /* Force the background image to fill the whole element. */
-  background-size: cover;
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center center; */
   /* Keep the image from overlapping sibling elements. */
-  z-index: -1;
-}
+  /* z-index: -1;
+} */
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
-.bg1::after {
+/* .bg1::after {
   background-image: url('../images/bkg-front-mobile.jpg');
-}
+} */
 
 #myVideo {
   display: none;
@@ -107,6 +151,7 @@ h4 {
   bottom: 10px;
   left: 40%;
   text-align: center;
+  z-index: 2;
 }
 
 .next_section img {

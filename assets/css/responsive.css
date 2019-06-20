@@ -95,16 +95,15 @@
 
   /* HEADER PARALLAX */
 
-  .front_hero-section-img {
+  .front_hero-img {
+    background-image: url('../images/bkg-front.jpg');
+  }
+
+  .front_hero-foreground {
     width: 350px;
-    position: absolute;
     left: 50%;
     margin-left: -175px;
     top: 30vh;
-  }
-
-  .bg1::after {
-    background-image: url('../images/bkg-front.jpg');
   }
 
   .contact {

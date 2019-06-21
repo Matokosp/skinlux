@@ -385,6 +385,47 @@
     background-image: url('../images/bkg13-web.jpg');
   }
 
+  /* FLEXSLIDER TESTIMONIO */
+
+  .testimonio_bottom .flexslider .slides > li {
+    background-color: rgba(0,0,0,0.8);
+    height: 90vh;
+  }
+
+  .testimonio_bottom .flexslider .slides li .testimonio_bottom_img {
+    vertical-align: top;
+    display: inline-block;
+    width: 59%;
+  }
+
+  .testimonio_bottom_text_section {
+    vertical-align: top;
+    display: inline-block;
+    color: #fff;
+    width: 40%;
+    height: 90vh;
+    padding: 0 5%;
+  }
+
+  .testimonio_bottom_text_section-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+  }
+
+  .testimonio_bottom_text_section-flex p {
+    font-size: 1.2rem;
+  }
+
+  .testimonio_bottom_text_section-flex cite {
+    font-size: 0.95rem;
+  }
+
+
+
+
   /* PAGINA NOTICIAS */
 
   .noticias_header {
